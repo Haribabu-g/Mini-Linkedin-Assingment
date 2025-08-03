@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
 const api = axios.create({
-  baseURL: 'https://mini-linkedin-api-yk6n.onrender.com/', 
+  baseURL: 'https://mini-linkedin-api-yk6n.onrender.com/api', 
   headers: {
     'Content-Type': 'application/json',
   },
